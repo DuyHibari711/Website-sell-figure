@@ -1,0 +1,48 @@
+h1
+{
+    padding-left: 93px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+.NhapThongTin
+{
+    padding-left: 93px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+.TraTien
+{
+    display: flex;
+}
+h3
+{
+    padding-bottom: 40px;
+}
+.ThongTin
+{
+    padding-bottom: 40px;
+}
+.ThongTin label
+{
+    font-size: 17px;
+}
+.ThongTin input
+{
+    width: 700px;
+    height: 40px;
+}
+.CachTra
+{
+    margin-bottom: 25px;
+}
+#STK
+{
+    width: 450px;
+    height: 40px;
+}
+button
+{
+    width: 100px;
+    height: 40px;
+    margin-top: 35px;
+}

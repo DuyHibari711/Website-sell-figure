@@ -1,0 +1,153 @@
+.BodyCT
+{
+    padding-top: 50px;
+    padding-left: 93px;
+    padding-right: 70px;
+    padding-bottom: 430px;
+    display: flex;
+}
+/*Ảnh Chi Tiết*/
+#imgChiTiet 
+{
+    width: 450px;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    overflow: hidden;
+    position: relative;
+}  
+#imgChiTiet img 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.32);
+}
+.Button 
+{
+    position: absolute;
+    top: 50%;  
+    background: transparent;
+    border: 1px solid rgb(126, 126, 126); 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    background-color: rgba(56, 56, 56, 0.39);
+    color: #6e6e6e;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+    line-height: 30px; 
+}  
+.Button:hover
+{
+    opacity: 0.5;
+}
+#prev-button 
+{
+    left: 10px;
+}  
+#next-button 
+{
+    right: 10px;
+}
+
+/*Thông tin chung và mua hàng*/
+.InforChung
+{   margin-left: 80px;
+    padding-left: 5px;
+    width: 360px;
+    height: 500px;
+    line-height: 50px;
+}
+.InforChung hr
+{
+    width: 100%;
+    size: 2px;
+}
+.Soluong
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.Soluong p
+{
+    width: 20px;
+    text-align: center;
+}
+.Soluong button 
+{
+    padding: 11px 13px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    
+}
+.Soluong button:hover
+{
+    background-color: #2980b9;
+}
+#so
+{
+    margin: 0 10px;
+}
+.Pay
+{
+    display: inline-flex;
+    margin-bottom: 25px;
+}
+#pay
+{
+    padding: 11px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: rgb(231, 231, 231);
+}
+.DuoiGia
+{
+    display: flex;
+    font-style:oblique;
+}
+.Capnhatgia
+{
+    padding-top: 25px;
+}
+.GiaHienTai
+{
+    color: rgb(0, 187, 0);
+}
+
+/*Thông tin chi tiết*/
+.InforCT
+{
+    margin-left: 80px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    width: 350px;
+    height: 540px;
+    line-height: 45px;
+    font-size: 17px;
+}
+.Chuthich
+{
+    display: block;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+/*Sản phẩm liên quan*/
+.BodyExtra
+{
+    margin-left: 93px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.BodyExtra h1
+{
+    text-align: center ;
+}

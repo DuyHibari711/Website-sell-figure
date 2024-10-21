@@ -1,0 +1,92 @@
+h1
+{
+    padding-left: 93px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+.MainbodyCT
+{
+    padding-left: 93px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    display: flex;
+}
+b
+{
+    font-size: 23px;
+}
+
+/*Button*/
+.BtnDelete
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.BtnDelete button
+{
+    margin-left: 680px;
+    width: 170px;
+    height: 40px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.BtnDelete button:hover
+{
+    background-color: #45a049;
+}
+.BtnXacNhan button
+{
+    width: 170px;
+    height: 40px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.BtnXacNhan button:hover
+{
+    background-color: #45a049;
+}
+
+/*Table*/
+#DanhSach 
+{
+    width: 850px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+#DanhSach th, #DanhSach td 
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}  
+.giohang-item 
+{
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.giohang-item:hover 
+{
+    background-color: #f5f5f5;
+}
+.giohang-checkbox 
+{
+    margin-right: 10px;
+}
+#giohang-list img {
+    max-width: 200px;
+}
+
+/*Xác nhận mua hàng*/
+.XacNhan
+{
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 80px;
+    padding: 30px;
+    font-size: 17px;
+    max-height: 250px;
+}

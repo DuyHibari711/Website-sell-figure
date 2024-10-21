@@ -1,0 +1,67 @@
+.BodyGT
+{
+    display: flex;
+}
+
+/*Địa Chỉ*/
+.LeftDiaChi
+{
+    width: 500px;
+    display:block;
+    line-height: 50px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.LeftDiaChi h1
+{
+    font-size: 35px;
+}
+.LeftDiaChi i
+{
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.LeftDiaChi P
+{
+    color: black;
+    font-family: "Candara", sans-serif;
+    display: inline-block;
+}
+.ThongTin
+{
+    margin-bottom: 30px;
+}
+
+/*Phản hồi*/
+.RightDiaChi
+{
+    display:block;
+    line-height: 50px;
+    margin-top: 40px;
+}
+.RightDiaChi h1
+{
+    font-size: 35px;
+}
+.PhanHoi1 > input[type="text"] {
+    padding: 8px;
+    width: 500px;
+}
+.PhanHoi2 > textarea {
+    padding: 8px;
+    width: 595px;
+    height: 300px;
+    resize: none; /* Ngăn chặn người dùng có thể kéo dài kích thước */
+}
+.RightDiaChi button {
+    width: 150px;
+    height: 30px;
+}
+

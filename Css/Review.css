@@ -1,0 +1,36 @@
+.imgMuc
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 350px;
+    object-fit: cover;
+}
+.NextPage
+{
+    display: flex; 
+    justify-content: center; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.NextPage a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.NextPage a:hover
+{
+    color: white;
+    background-color: black;
+}
+

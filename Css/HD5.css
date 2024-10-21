@@ -1,0 +1,14 @@
+.Minhhoa1 img
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Minhhoa2 img
+{
+    display: inline-block;
+    height: 430px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}

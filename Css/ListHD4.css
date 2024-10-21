@@ -1,0 +1,13 @@
+.GioiThieu h3
+{
+    margin-left: 0px;
+    padding-top: 5px;
+    text-align:left;
+    border: 2px solid #383838;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-decoration: none; 
+    font-family: "Candara", sans-serif;
+}

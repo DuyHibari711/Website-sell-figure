@@ -1,0 +1,18 @@
+.Minhhoa1 img
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Minhhoa2 img
+{
+    height: 450px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    object-fit: cover;
+}
+.GioiThieu b
+{
+    font-size: 19px;
+}

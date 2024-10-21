@@ -1,0 +1,93 @@
+.imglogo
+{
+  width: 230px;
+  height: auto;
+  padding: 0 15px;
+  padding-left: 50px;
+  margin-left: 540px;
+}
+.logout
+{
+  float: right;
+}
+.logout a
+{
+  color: black;
+  text-decoration: none;
+}
+.imglogout
+{
+  width: 100px;
+  height: auto;
+  padding-left: 65px;
+  padding-top: 40px;
+  margin-left: 420px;
+}
+.logout p
+{
+  padding-left: 465px;
+  font-size: 15px;
+}
+/*List*/
+.menulist 
+{
+    position: relative;
+    display:inline-block;
+    margin-left: 100px;
+    padding-top: 35px;
+}
+
+/*ThongKe*/
+h2
+{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  font-size: 27px;
+}
+h3
+{
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  width: 500px;
+  height: 70px;
+  margin-left: 110px;
+  text-align: center;
+  padding-top: 20px;
+}
+i
+{
+  float: right;
+  margin-right: 50px;
+}
+.ThongKe
+{
+  display: flex;
+}
+.ThongTin
+{
+  display: block;
+}
+.ThongTinChiTiet
+{
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 500px;
+  margin-left: 110px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+/*Footer*/
+.Footerbottom
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 130px;
+}
+

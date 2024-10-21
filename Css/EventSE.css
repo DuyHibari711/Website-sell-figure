@@ -1,0 +1,48 @@
+.Minhhoa1 video
+{
+    display: block;
+    width: 700px;
+    margin-left: 280px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.Minhhoa1 p
+{
+    margin-top: 10px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+.Minhhoa2 video
+{
+    display: block;
+    width: 700px;
+    margin-left: 280px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.Minhhoa2 p
+{
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+.imgGTMH
+{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 380px;   
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+.Minhhoa3 img
+{
+    margin-top: 10px;
+    margin-left: 350px;   
+    margin-bottom: 40px;
+}

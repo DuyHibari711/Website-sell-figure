@@ -1,0 +1,41 @@
+.PhanChia
+{
+    display: flex;
+}
+.GioiThieu h3
+{
+    margin-left: 130px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 2px solid #383838;
+    width: 230px;
+    height: 70px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-decoration: none; 
+    font-family: "Candara", sans-serif;
+}
+.Minhhoa1 p
+{
+    margin-left: 365px;
+    margin-bottom: 50px;
+}
+.Minhhoa2 img
+{
+    display:inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 280px;
+}
+.Minhhoa2 p
+{
+    margin-left: 270px;
+    margin-bottom: 50px;
+}
+.Minhhoa3 p
+{
+    margin-left: 345px;
+    margin-bottom: 50px;
+}

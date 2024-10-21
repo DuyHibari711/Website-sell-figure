@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/TrangChu.css">
+  <link rel="stylesheet" href="../Css/TrangQuanTri.css">
+  <link rel="stylesheet" href="../Css/Admin-Figure.css">
+  <link rel="stylesheet" href="../Css/Admin-KhachHang.css">
+  <title>BLACK CROWN</title>
+</head>
+<body>
+<!--Đầu trang-->
+    <header>
+        <div class="Container">
+            <div class="logo">
+                <a href="#">
+                    <img class="imglogo" src="../Image/Logo.jpg" alt="BLACK CROW">
+                </a>
+            </div>
+            <div class="logout">
+              <a href="../Html/TrangChu.html">
+                  <img class="imglogout" src="../Image/Logout.png">
+                  <p>Đăng xuất</p>
+              </a>
+          </div>
+    </header>
+
+    <!--Menu list-->
+    <section class="fullmenu">
+      <div class="menulist">
+          <a href="../Html/TrangQuanTri.html">
+              <p>Thống kê</p>
+          </a>
+      </div>
+      <div class="menulist">
+          <a href="../Html/Admin-Figure.html">
+              <p>Figure</p>
+          </a>
+      </div>
+      <div class="menulist">
+        <a href="../Html/Admin-NhanVien.html">
+            <p>Nhân viên</p>
+        </a>
+      </div>
+      <div class="menulist">
+        <a href="../Html/Admin-KhachHang.html">
+            <p>Khách hàng</p>
+        </a>
+      </div>
+      <div class="menulist">
+        <a href="../Html/Admin-NCC.html">
+            <p>Nhà cung cấp</p>
+        </a>
+      </div>
+      <div class="menulist">
+        <a href="../Html/Admin-HoaDonNhap.html">
+            <p>Hóa đơn nhập</p>
+        </a>
+      </div>
+      <div class="menulist">
+        <a href="../Html/Admin-HoaDonBan.html">
+            <p>Hóa đơn bán</p>
+        </a>
+      </div>
+    </section> 
+
+    <!--Main body-->
+    <h2>Quản lý khách hàng</h2>
+    <section class="QLKhachHang">
+      <section class="Left">
+        <h3>Thêm khách hàng</h3>
+        <div class="Add">
+          <label for="MaKH">Mã khách hàng:</label><br>
+          <input type="text" id="MaKH" placeholder="Nhập mã khách hàng...">
+        </div>
+
+        <div class="Add">
+          <label for="TenKH">Tên khách hàng:</label><br>
+          <input type="text" id="TenKH" placeholder="Nhập tên khách hàng...">
+        </div>
+
+        <div class="Add">
+            <label for="DC">Địa chỉ:</label><br>
+            <input type="text" id="DiaChi" placeholder="Nhập địa chỉ...">
+        </div>
+
+        <div class="BtnAdd">
+          <button onclick="addKhachhang()">Thêm khách hàng</button>
+        </div>
+      </section>
+
+
+      <section class="Right">
+        <h3>Danh sách khách hàng</h3>
+        <div class="BtnDelete">
+          <button onclick="deleteSelectedKhachHang()">Xóa khách hàng</button>
+        </div>
+        <table id="DanhSach">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Mã</th>
+                    <th>Tên</th>
+                    <th>Địa Chỉ</th>
+                </tr>
+            </thead>
+            <tbody id="khachhang-list"></tbody>
+        </table>
+      </section>
+    </section>
+
+    <!--Footer-->
+    <div class="Footerbottom">
+      <p>Bản Quyền © 2023 Black Crown. Tất cả các quyền được bảo lưu.</p>
+  </div>
+    <!--Js-->    
+    <script src="../Js/TrangQuanTri.js"></script>
+</body>
+</html>
